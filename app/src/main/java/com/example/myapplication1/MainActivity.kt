@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MyApplication1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "AndroidDemo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
